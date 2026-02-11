@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Minimal, single–color operations icon in white -->
+  <g fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer gear -->
+    <path d="M12 3.3l1 1.8a1 1 0 0 0 .9.5l2.1-.1 0 2.2a1 1 0 0 0 .4.8l1.7 1-1 1.8a1 1 0 0 0 0 .9l1 1.8-1.7 1a1 1 0 0 0-.4.8l.1 2.2-2.1-.1a1 1 0 0 0-.9.5L12 20.7l-1-1.8a1 1 0 0 0-.9-.5l-2.1.1.1-2.2a1 1 0 0 0-.4-.8l-1.7-1 1-1.8a1 1 0 0 0 0-.9l-1-1.8 1.7-1a1 1 0 0 0 .4-.8l0-2.2 2.1.1a1 1 0 0 0 .9-.5z" />
+    <!-- Inner hub -->
+    <circle cx="12" cy="12" r="3.2" />
+  </g>
+</svg>

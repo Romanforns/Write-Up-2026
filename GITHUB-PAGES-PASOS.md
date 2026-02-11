@@ -1,9 +1,8 @@
 # Pasos para publicar en GitHub Pages
 
-## Situación actual
-- Tu sitio (index.html, writeup.html, css/, js/, images/) está dentro de **CVromanforns-main/**.
-- GitHub Pages sirve por defecto desde la **raíz** del repositorio o desde la carpeta **/docs**.
-- Para que la URL quede limpia (`https://tu-usuario.github.io/Write-Up-2026/`), el `index.html` debe estar en la raíz del repo.
+## Situación actual (actualizado)
+- El sitio ya está en la **raíz** del proyecto: `index.html`, `css/`, `js/`, `images/`, `fonts/`.
+- GitHub Pages sirve desde la raíz del repo; con esta estructura la URL será **https://romanforns.github.io/Write-Up-2026/**.
 
 ---
 
@@ -39,14 +38,15 @@ git push -u origin main
 
 Sustituye `TU-USUARIO` por tu usuario de GitHub.
 
-### 3. Activar GitHub Pages
-1. En GitHub: abre el repositorio **Write-Up-2026**.
-2. **Settings** → en el menú izquierdo **Pages**.
-3. En **Build and deployment**:
-   - **Source**: Deploy from a branch
-   - **Branch**: main
-   - **Folder**: / (root)
-4. **Save**.
+### 3. Activar GitHub Pages (qué verás en la pantalla)
+1. En GitHub: abre **https://github.com/Romanforns/Write-Up-2026**
+2. Pestaña **Settings** (arriba, junto a Insights).
+3. En el **menú izquierdo**, busca **Pages** (suele estar dentro de **"Code and automation"**). Si no lo ves, baja un poco en el menú.
+4. En la sección **"Build and deployment"** verás:
+   - **Source**: desplegable → elige **"Deploy from a branch"**.
+   - **Branch**: elige **main** y en **Folder** → **/ (root)**.
+   - Botón **Save**.
+5. Si la página de Settings → Pages está en blanco o no ves "Build and deployment", asegúrate de que el repo tiene al menos un commit con el contenido (incluido `index.html` en la raíz) y que estás como propietario o con permisos de admin.
 
 ### 4. Ver tu sitio
 - En unos minutos estará en: **https://TU-USUARIO.github.io/Write-Up-2026/**
