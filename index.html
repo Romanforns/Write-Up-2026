@@ -69,7 +69,7 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								En estos últimos seis meses he experimentado una evolución muy marcada. Los proyectos en los que he participado me han exigido dominar plataformas y patrones nuevos (Microsoft Fabric, Data Vault 2.0, arquitecturas metadata-driven, modelado dbt sobre ecosistemas enterprise), asumiendo liderazgo técnico desde el diseño hasta la entrega y consolidándome como referente en iniciativas de migración y modernización de plataformas de datos.
+								En estos últimos seis meses he experimentado una evolución muy significativa. Los proyectos en los que he participado me han exigido dominar nuevas plataformas y patrones (Microsoft Fabric, Data Vault, arquitecturas metadata-driven, modelado con dbt), asumiendo el liderazgo técnico tanto en la fase de diseño como durante la implementación. Esto me ha permitido consolidarme como referente en iniciativas de migración y modernización de plataformas de datos.
 							</p>
 						</div>
 					</section>
@@ -105,11 +105,11 @@
 									<div class="nino-articleContent">
 										<p>
 										<p>
-											Sobre la base del assessment previo, participé en el <a href="https://www.notion.so/DACSA-Microsoft-Fabric-2e809578a317804d8313c20b19f92ad3" target="_blank" rel="noopener noreferrer"><strong>análisis y diseño de la migración hacia Microsoft Fabric.</strong></a> Se abordó una simplificación integral de la capa de transformación, orientándola a la ingesta directa de entidades de D365 F&amp;O y a la aplicación sistemática de <a href="https://www.notion.so/Guia-Tests-Calidad-DBT-2f509578a31780b594b8f8bd13aa8a46" target="_blank" rel="noopener noreferrer"><strong>reglas de calidad definidas en una guía metodológica exhaustiva</strong></a>, diseñada para maximizar el uso de las librerías dbt_utils y dbt_expectations (validaciones de integridad, unicidad, rangos, formatos y consistencia dentro del marco de arquitectura Medallion).
+											Sobre la base del assessment previo, se llevó a cabo el <a href="https://www.notion.so/DACSA-Microsoft-Fabric-2e809578a317804d8313c20b19f92ad3" target="_blank" rel="noopener noreferrer"><strong>análisis y diseño de la migración hacia Microsoft Fabric.</strong></a> Se abordó una <a href="https://github.com/Romanforns/DACSA/tree/refinamiento_dependencias_entidades/FINANZAS/Queries%20Sincronizadas" target="_blank" rel="noopener noreferrer"><strong>simplificación integral de la capa de transformación</strong></a>, orientándola a la ingesta directa de entidades de D365 F&amp;O y a la aplicación sistemática de <a href="https://www.notion.so/Guia-Tests-Calidad-DBT-2f509578a31780b594b8f8bd13aa8a46" target="_blank" rel="noopener noreferrer"><strong>reglas de calidad definidas en una guía metodológica exhaustiva</strong></a>, diseñada para maximizar el uso de las librerías dbt_utils y dbt_expectations (validaciones de integridad, unicidad, rangos, formatos y consistencia dentro del marco de arquitectura Medallion).
 										</p>
 										</p>
 										<p>
-											Como resultado, el dato queda estandarizado, validado y preparado en la capa Silver. Para garantizar coherencia, trazabilidad y escalabilidad, se definieron <a href="https://www.notion.so/Data-Naming-Conventions-Guide-2e809578a3178082b102e2923a5329cb" target="_blank" rel="noopener noreferrer"><strong>guidelines transversales de Naming Conventions</strong></a> para toda la plataforma de datos de DACSA, estableciendo una clara diferenciación entre la capa Silver (enfoque técnico y trazable) y la capa Gold (enfoque semántico y orientado a negocio), con convenciones obligatorias para nuevos desarrollos. Asimismo, participé en el refinamiento de los pipelines de ingesta desde orígenes cloud y on-premises, basada en shortcuts y staging en Lakehouses, junto con el modelado en dbt para la construcción de los Data Warehouses en las capas Silver y Gold.
+											Como resultado, el dato queda estandarizado, validado y preparado en la capa Silver. Para garantizar coherencia, trazabilidad y escalabilidad, se definieron <a href="https://www.notion.so/Data-Naming-Conventions-Guide-2e809578a3178082b102e2923a5329cb" target="_blank" rel="noopener noreferrer"><strong>guidelines transversales de Naming Conventions</strong></a> , estableciendo una clara diferenciación entre la capa Silver (enfoque técnico y trazable) y la capa Gold (enfoque semántico y orientado a negocio), con convenciones obligatorias para nuevos desarrollos. Asimismo, participé en el refinamiento de los pipelines de ingesta desde orígenes cloud y on-premises, basada en shortcuts y staging en Lakehouses.
 										</p>
 									</div>
 								</article>
@@ -119,17 +119,17 @@
 									<div class="nino-articleContent">
 										<p>
 										<p>
-											El equipo de DataTech proporcionó inicialmente, a mi solicitud, dos ejemplos de prueba técnica y, días después, una tercera prueba final. Tras comenzar su desarrollo de forma independiente, se decidió consolidar los tres enunciados en una única Proof of Concept (PoC) integrada que diera respuesta conjunta a todos los requisitos planteados.
+											El equipo de DataTech proporcionó inicialmente, a mi solicitud, dos ejemplos de prueba técnica y, días después, una tercera prueba final. Tras comenzar su desarrollo de forma independiente, se decidió <a href="https://docs.google.com/presentation/d/1_cjbw7L3pkZGD61f7ax-OyCHgLw3EoTq/present?slide=id.p2" target="_blank" rel="noopener noreferrer"><strong>consolidar los tres enunciados en una única Proof of Concept (PoC)</strong></a> integrada que diera respuesta conjunta a todos los requisitos planteados.
 										</p>
 										</p>
 										<p>
 											Las pruebas abordaban, respectivamente: el diseño de una arquitectura Data Vault 2.0 sobre TPCH_SF1 en Snowflake con dbt Cloud y lineage end-to-end; el desarrollo de un framework de ingesta y validación metadata-driven con PySpark, Docker y Airflow bajo un enfoque DataOps; y la implementación de un programa en Python/Scala basado en metadata.json para transformaciones dinámicas, control de calidad y versionado con Spark.
 										</p>
 										<p>
-											Como respuesta, se diseñó una <a href="https://github.com/Romanforns/SDG_TEST_DataTech?tab=readme-ov-file#sdg-data-transformation-platform" target="_blank" rel="noopener noreferrer"><strong>solución unificada y metadata-driven que integró arquitectura, procesamiento, gobierno y modelado de datos en un mismo ecosistema tecnológico basado en Airflow, Spark y dbt sobre Snowflake</strong></a>. La propuesta combinó la arquitectura Data Vault 2.0, un framework de ingesta y validación declarativa y un motor de transformaciones dinámicas gobernado por metadatos JSON, garantizando trazabilidad, control de versiones y calidad del dato desde origen hasta capa analítica.
+											Como respuesta, se diseñó una <a href="https://github.com/Romanforns/SDG_TEST_DataTech?tab=readme-ov-file#sdg-data-transformation-platform" target="_blank" rel="noopener noreferrer"><strong>solución unificada y metadata-driven que integró arquitectura, procesamiento, gobierno y modelado de datos en un mismo ecosistema tecnológico basado en Airflow, Spark y dbt sobre Snowflake</strong></a>. La propuesta combinó un framework de ingesta y validación declarativa y un motor de transformaciones dinámicas gobernado por metadatos JSON, garantizando trazabilidad, control de versiones y calidad del dato desde origen hasta la arquitectura Data Vault en la capa capa analítica.
 										</p>
 										<p>
-											El proceso abarcó la ingesta y normalización de datos, la aplicación de validaciones declarativas, la generación de datasets controlados (OK/KO), la carga versionada en capa RAW con soporte para estrategias overwrite, append y upsert, y la posterior materialización en modelo Data Vault (staging → hubs, links, satellites → marts), incluyendo testing automatizado y lineage end-to-end. El resultado fue una plataforma unificada que resolvió los tres ejercicios en un único entregable coherente, demostrando capacidades avanzadas de diseño arquitectónico, estandarización de procesos, gobierno del dato y construcción de un framework reutilizable y escalable.
+											El proceso abarcó la ingesta y normalización de datos, la aplicación de validaciones declarativas, la generación de datasets controlados (OK/KO), la carga versionada en capa RAW con soporte para estrategias overwrite, append y upsert, y la posterior materialización en <a href="https://github.com/Romanforns/SDG_TEST_DataTech/tree/main/dbt/models/data_vault" target="_blank" rel="noopener noreferrer"><strong>modelo Data Vault (staging → hubs, links, satellites → marts)</strong></a>, incluyendo testing automatizado y lineage end-to-end. El resultado fue una plataforma unificada que resolvió los tres ejercicios en un único entregable coherente, demostrando capacidades avanzadas de diseño arquitectónico, estandarización de procesos, gobierno del dato y construcción de un framework reutilizable y escalable.
 										</p>
 									</div>
 								</article>
@@ -143,7 +143,7 @@
 										</p>
 										</p>
 										<p>
-											El sistema descubre esquemas desde INFORMATION_SCHEMA, genera automáticamente DDL idempotente y scripts de ingesta en Python, y ejecuta procesos batch e incrementales con control de volumetría, validación de integridad y orquestación en Apache Airflow. La arquitectura se estructura en capas de metadatos, generación, runtime y orquestación, incorporando conectores especializados y estrategias de ingesta reutilizables que separan completamente la configuración de la implementación.
+											El sistema descubre esquemas desde INFORMATION_SCHEMA, <strong>genera automáticamente DDL idempotente y scripts de ingesta en Python, y ejecuta procesos batch e incrementales con control de volumetría, validación de integridad y orquestación en Apache Airflow.</strong> La arquitectura se estructura en capas de metadatos, generación, runtime y orquestación, incorporando conectores especializados y estrategias de ingesta reutilizables que separan completamente la configuración de la implementación.
 										</p>
 										<p>
 											El proyecto continúa evolucionando con la incorporación de nuevos conectores y la extensión del patrón metadata-driven a otros escenarios de migración, con el objetivo de consolidarse como un activo reutilizable y escalable dentro del portfolio de soluciones de la práctica.
@@ -160,13 +160,13 @@
 										</p>
 										</p>
 										<p>
-											El análisis identificó como principales problemáticas el elevado coste de cambio, la ausencia de CI/CD, queries de BigQuery embebidas en código, uso de operadores deprecados y una cobertura limitada de testing, afectando directamente a la mantenibilidad, escalabilidad y gobernanza de la plataforma.
+											El análisis identificó como <strong>principales problemáticas: la ausencia de CI/CD, queries de BigQuery embebidas en código, uso de operadores deprecados y una cobertura limitada de testing,</strong> afectando directamente a la mantenibilidad, escalabilidad y gobernanza de la plataforma.
 										</p>
 										<p>
 											Como respuesta, se realizó un análisis de viabilidad técnica y se definió un roadmap de migración de 20 semanas estructurado en ocho fases. La <a href="https://github.com/Romanforns/TOUS_workframe?tab=readme-ov-file#tous-workframe" target="_blank" rel="noopener noreferrer"><strong>propuesta arquitectónica, denominada TOUS Workframe, planteó una reestructuración por capas, la implementación de DAG factories parametrizadas en YAML, la adopción del Repository Pattern con abstracción de Datastore y BigQuery, una estrategia metadata-driven para la gestión de queries y configuraciones, la centralización de parámetros mediante Pydantic y la incorporación de un framework de testing alineado con buenas prácticas de Data Engineering.</strong></a>
 										</p>
 										<p>
-											El entregable consistió en una propuesta técnica integral que incluía el diseño arquitectónico detallado, el plan de migración y la documentación de mejoras estructurales, aplicando de forma coherente los patrones metadata-driven y de arquitectura consolidados durante la prueba DataTech. No obstante, la propuesta no llegó a presentarse debido a la reducción de inversión de TOUS en su Data Platform.
+											El entregable consistió en una propuesta técnica integral que incluía el diseño arquitectónico detallado, el plan de migración y la documentación de mejoras estructurales, aplicando de forma coherente los patrones metadata-driven y de arquitectura consolidados durante la prueba DataTech. No obstante, <strong>la propuesta no llegó a presentarse debido a la reducción de inversión de TOUS en su Data Platform.</strong>
 										</p>
 									</div>
 								</article>
@@ -180,9 +180,9 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul class="dimension-list">
-								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Estructuración operativa de la migración a partir del assessment y del inventario de modelos y reportes, definiendo el inventario de pipelines y el mapeo de datasets necesarios para la migración a Microsoft Fabric, con rutas de migración por fases y guías operativas.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Estructuración operativa de la migración a partir del assessment y del inventario de modelos e informes, definiendo el inventario de pipelines y el mapeo de datasets necesarios para la migración a Microsoft Fabric.</span></li>
 								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc">Demostración de operación metadata-driven en la que los cambios en reglas, rutas de ingesta o destinos analíticos se realizan modificando ficheros JSON/YAML sobre una arquitectura separada en orquestación (Airflow), procesamiento (Spark) y modelado (dbt).</span></li>
-								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Propuesta de operar la plataforma en base a principios metadata-driven mediante un roadmap de 20 semanas que migra gradualmente el monolito a componentes desacoplados, configuración centralizada, CI/CD y un framework de testing.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Propuesta de operar la plataforma en base a principios metadata-driven migrando gradualmente el monolito actual a componentes desacoplados, configuración centralizada, CI/CD y un framework de testing.</span></li>
 							</ul>
 						</div>
 					</section>
@@ -193,9 +193,9 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul class="dimension-list">
-								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Coordinación del equipo que ejecuta el análisis detallado y la planificación de la migración, revisando entregables y alineando las decisiones técnicas del día a día con la estrategia definida.</span></li>
-								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc">Generación de documentación exhaustiva en repositorios (defensa del proyecto, documentación técnica, guías de metadatos y READMEs ampliados) que permite a otros desarrolladores entender y extender la plataforma.</span></li>
-								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Referencia técnica para perfiles de datos, guiando diseño de DAGs, buenas prácticas en GCP y uso de la arquitectura actual, fomentando un marco de trabajo compartido y transferible.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc"><strong>Coordinación del equipo que ejecuta el análisis detallado y la planificación de la migración</strong>, revisando entregables y alineando las decisiones técnicas del día a día con la estrategia definida.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc">Generación de documentación exhaustiva en repositorios  <strong>que permite a otros desarrolladores entender y extender la plataforma</strong>.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc"><strong>Referencia técnica para perfiles de datos</strong>, guiando diseño de DAGs, buenas prácticas en GCP y uso de la arquitectura actual, <strong>fomentando un marco de trabajo compartido y transferible.</strong></span></li>
 							</ul>
 						</div>
 					</section>
@@ -206,8 +206,8 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul class="dimension-list">
-								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Visión clara del estado real de la plataforma de BI, dependencias entre dominios y opciones de migración a Microsoft Fabric para facilitar decisiones informadas sobre alcance, riesgos y prioridades.</span></li>
-								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc">Demostración tangible de la capacidad de diseñar y operar plataformas metadata-driven y marcos de migración reutilizables, reforzando la confianza en la propuesta de valor.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc"><strong>Visión clara del estado real de la plataforma de BI,</strong> dependencias entre dominios y opciones de migración a Microsoft Fabric <strong>para facilitar decisiones informadas sobre alcance, riesgos y prioridades.</strong></span></li>
+								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc"><strong>Demostración tangible de la capacidad de diseñar y operar plataformas metadata-driven y marcos de migración reutilizables</strong>, reforzando la confianza en la propuesta de valor.</span></li>
 								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Hoja de ruta clara para evolucionar la plataforma actual hacia una arquitectura más mantenible y gobernable, incluso aunque la ejecución quede condicionada por decisiones de inversión.</span></li>
 							</ul>
 						</div>
@@ -219,9 +219,9 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul class="dimension-list">
-								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Bases para priorizar productos y dominios según esfuerzo y valor, facilitando decisiones de inversión progresivas en la modernización de la plataforma de BI.</span></li>
-								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc">Conocimiento adquirido en la plataforma metadata-driven y el proyecto MDIF como activo intangible reutilizable para futuros proyectos de migración y consolidación de datos.</span></li>
-								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Propuesta de refactorización orientada a reducir costes operativos, mejorar tiempos de entrega y aumentar calidad y estabilidad de la plataforma de datos, alineando evolución técnica con objetivos de negocio.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc"><strong>Bases para priorizar productos y dominios según esfuerzo y valor</strong>, facilitando decisiones de inversión progresivas en la modernización de la plataforma de BI.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DataTech</strong><span class="dimension-item-desc"><strong>Conocimiento adquirido</strong> en la plataforma metadata-driven y el proyecto MDIF como activo intangible <strong>reutilizable para futuros proyectos de migración y consolidación de datos.</strong></span></li>
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc"><strong>Propuesta de refactorización orientada a reducir costes operativos, mejorar tiempos de entrega y aumentar calidad y estabilidad de la plataforma de datos</strong>, alineando evolución técnica con objetivos de negocio.</span></li>
 							</ul>
 						</div>
 					</section>
@@ -232,9 +232,9 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul class="dimension-list">
-								<li>Influencia en decisiones arquitectónicas clave mediante documentación técnica estructurada, diagramas y propuestas apoyadas en métricas, actuando como referente interno en arquitecturas de datos modernas y migraciones cloud.</li>
-								<li>Refuerzo de la posición de SDG como consultora capaz de ofrecer soluciones escalables y mantenibles gracias al enfoque metadata-driven aplicado en DataTech y TOUS.</li>
-								<li>Creación del MDIF como proyecto adicional, transformando aprendizajes técnicos en artefactos reutilizables con potencial de convertirse en activos de la práctica.</li>
+								<li>Influencia en decisiones arquitectónicas clave mediante documentación técnica estructurada, actuando como referente interno en arquitecturas de datos modernas y migraciones cloud.</li>
+								<li>Refuerzo de la posición de SDG C&R Fashion and Others como equipo capaz de ofrecer soluciones escalables y mantenibles gracias al enfoque metadata-driven.</li>
+								<li>Creación del MDIF como proyecto adicional, transformando aprendizajes técnicos en artefactos reutilizables con potencial de convertirse en activos del equipo.</li>
 							</ul>
 						</div>
 					</section>
@@ -249,11 +249,11 @@
 									<h3 class="nino-articleTitle">Assessment Migración DACSA</h3>
 									<div class="nino-articleContent">
 										<p></p>
-										<p><strong>Alcance</strong>: análisis de la plataforma de datos de DACSA para evaluar y simplificar los procesos ETL de los productos de Power BI activos, en preparación de la migración a Microsoft Fabric.</p>
+										<p><strong>Alcance</strong>: Análisis de la plataforma de datos de DACSA para evaluar y simplificar los procesos ETL de los productos de Power BI activos, como preparación de la migración a Microsoft Fabric.</p>
 										<p><strong>Actividades realizadas</strong>:</p>
 										<ul>
-											<li><a href="https://www.notion.so/2ed09578a31780c3bebecf2738c512e8?v=814cd73ce5bd4dd892543cc6dd296145&source=copy_link" target="_blank" rel="noopener noreferrer"><strong>Documentación exhaustiva de la plataforma existente: Dynamics 365 FO como fuente principal, Azure Synapse, Azure Data Factory, MySQL</strong></a> e integraciones con INNOVA, INTER y SharePoint.</li>
-											<li><a href="https://github.com/Romanforns/migracion_dacsa/blob/master/docs/inventario_modelos_por_dominio.md" target="_blank" rel="noopener noreferrer"><strong>Inventario de modelos semánticos y reportes paginados</strong></a>, con documentación por producto (estructura del dataset, transformaciones, orígenes de datos, pipelines ADF y diagramas de dependencias).</li>
+											<li><a href="https://www.notion.so/2ed09578a31780c3bebecf2738c512e8?v=814cd73ce5bd4dd892543cc6dd296145&source=copy_link" target="_blank" rel="noopener noreferrer"><strong>Documentación exhaustiva de la plataforma existente: Dynamics 365 FO como fuente principal, Azure Synapse, Azure Data Factory, MySQL</strong></a>  y SharePoint.</li>
+											<li><a href="https://github.com/Romanforns/migracion_dacsa/blob/master/docs/inventario_modelos_por_dominio.md" target="_blank" rel="noopener noreferrer"><strong>Inventario de modelos semánticos y reportes paginados</strong></a>, con documentación por producto.</li>
 											<li>Modelado por dominios (Finanzas, Logística, Ventas, Calidad, I+D, POE) con identificación de hechos y dimensiones clave.</li>
 											<li><a href="https://docs.google.com/spreadsheets/d/1jjGVUZ-GT-S37_2Pfa-CA0RfkMlHH7aloJaicl6n3Os/edit?gid=372288029#gid=372288029" target="_blank" rel="noopener noreferrer"><strong>Categorización de productos (S, M, L, XL)</strong></a> según complejidad y esfuerzo para priorizar y estimar la migración.</li>
 											<li>Definición de estrategia preliminar de migración basada en consumo desde shortcuts de Fabric, modelado en dbt y simplificación de capas intermedias.</li>
@@ -265,15 +265,13 @@
 									<h3 class="nino-articleTitle">Proyecto Migración DACSA Fabric</h3>
 									<div class="nino-articleContent">
 										<p></p>
-										<p><strong>Alcance</strong>: análisis y diseño para migrar la plataforma de datos de DACSA a Microsoft Fabric.</p>
+										<p><strong>Alcance</strong>: Análisis y diseño para migrar la plataforma de datos de DACSA a Microsoft Fabric.</p>
 										<p><strong>Actividades realizadas</strong>:</p>
 										<ul>
-											<li><a href="https://www.notion.so/2f109578a31780d9aa94c7ab12bc6cbb?v=8bf3792f054e47619be7979aa84f4c4b" target="_blank" rel="noopener noreferrer"><strong>Inventario de pipelines</strong></a> y mapeo de datasets desde el <a href="https://www.notion.so/2f109578a317806985fce23ca773c3da?v=d84069fd8b194697baaac36f06595113" target="_blank" rel="noopener noreferrer"><strong>repositorio de análisis</strong></a> para asegurar la cobertura de procesos críticos.</li>
+											<li><a href="https://www.notion.so/2f109578a31780d9aa94c7ab12bc6cbb?v=8bf3792f054e47619be7979aa84f4c4b" target="_blank" rel="noopener noreferrer"><strong>Inventario de pipelines</strong></a> y mapeo de datasets desde el <a href="https://www.notion.so/2f109578a317806985fce23ca773c3da?v=d84069fd8b194697baaac36f06595113" target="_blank" rel="noopener noreferrer"><strong>repositorio de análisis</strong></a>.</li>
 											<li>Elaboración de <a href="https://www.notion.so/D365-F-O-Fields-Glossary-2e809578a3178025958dd57beab01778" target="_blank" rel="noopener noreferrer"><strong>glosario de campos D365 F&amp;O y documentación de entidades clave</strong></a>, alineando el modelo técnico con el lenguaje de negocio.</li>
-											<li><a href="https://www.notion.so/2ea09578a31780afada9f70242653694?v=d8db50c1ab6d4ad7ba0539774aa1aa32&source=copy_link" target="_blank" rel="noopener noreferrer"><strong>Documentación de modelos BIM</strong></a> para productos de finanzas y otros dominios prioritarios.</li>
+											<li><a href="https://www.notion.so/2ea09578a31780afada9f70242653694?v=d8db50c1ab6d4ad7ba0539774aa1aa32&source=copy_link" target="_blank" rel="noopener noreferrer"><strong>Documentación de modelos BIM</strong></a>.</li>
 											<li><a href="https://www.notion.so/FINANZAS-2e709578a317808b878af68c01e71fc1" target="_blank" rel="noopener noreferrer"><strong>Definición de capas de transformación y su mapeo hacia las capas Bronze/Silver/Gold</strong></a>, integrando la estrategia de calidad de datos.</li>
-											<li>Diseño del scaffolding en Fabric y de los primeros modelos Bronze en dbt como base de la futura plataforma.</li>
-											<li>Estructuración de un plan de migración por fases: preparación del entorno, migración de procesos, validación y pruebas, estabilización y transferencia al equipo del cliente.</li>
 										</ul>
 									</div>
 								</article>
@@ -287,13 +285,13 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								Me gustaría verme consolidando el paso a Specialist referente de arquitectura e integración en clientes clave, con foco en:
+								Me gustaría verme <strong>consolidando el paso a Specialist de arquitectura e integración</strong> en el equipo C&R - Fashion and Others, con foco en:
 							</p>
 							<ul>
-								<li>Arquitecturas innovadoras de datos metadata-driven, incorporando progresivamente capacidades de IA y Machine Learning cuando aporten valor real.</li>
-								<li>Migraciones de entornos legacy hacia ecosistemas cloud con trazabilidad, calidad y gobernanza, aplicando los aprendizajes de proyectos como DACSA y las propuestas tipo TOUS.</li>
-								<li>Soluciones que unan eficiencia tecnológica y visión de negocio, reutilizando patrones y frameworks para maximizar impacto en costes, riesgos, tiempos de entrega y calidad del dato.</li>
-								<li>Potenciar mis soft skills para continuar inspirando y guiando a los miembros de los equipos en proyectos de alto impacto, acompañando a perfiles más junior mediante liderazgo interno.</li>
+								<li><strong>Arquitecturas innovadoras</strong> de datos metadata-driven, incorporando progresivamente capacidades de IA y Machine Learning cuando aporten valor real.</li>
+								<li>Migraciones de entornos legacy hacia ecosistemas cloud con trazabilidad, calidad y gobernanza.</li>
+								<li><strong>Soluciones de arqutectura que unan eficiencia tecnológica y visión de negocio</strong>, reutilizando patrones y frameworks para maximizar impacto en costes, riesgos, tiempos de entrega y calidad del dato.</li>
+								<li>Continuar inspirando y guiando a los miembros de los equipos en los proyectos, <strong>acompañando a perfiles más junior mediante liderazgo interno</strong>.</li>
 							</ul>
 						</div>
 					</section>
@@ -304,10 +302,10 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<ul>
-								<li><strong>Proyectos high-tech</strong>: retos que exijan dominar nuevas tecnologías y patrones de arquitectura de datos.</li>
-								<li><strong>Mentoría</strong>: acompañamiento de referentes técnicos que aporten nuevas perspectivas en arquitectura, gobierno del dato y estimaciones.</li>
+								<li><strong>Proyectos high-tech</strong>: Retos que exijan dominar nuevas tecnologías y patrones de arquitectura de datos.</li>
+								<li><strong>Colaboración</strong> con referentes técnicos senior para <strong>enriquecer la visión en arquitectura y gobierno del dato</strong>.</li>
 								<li><strong>Mayor disponibilidad para diseño</strong>: reducir dedicación exclusiva a desarrollo para poder diseñar arquitecturas desde la fase de propuesta y assessment, mejorar prácticas y documentación, y formar a analistas y consultores.</li>
-								<li><strong>Reutilización de artefactos</strong>: trabajar en desarrollos que permitan reaprovechamiento de soluciones como base para acelerar futuros proyectos.</li>
+								<li><strong>Reutilización de artefactos</strong>: trabajar en desarrollos que permitan reaprovechamiento de soluciones como <strong>base para acelerar futuros proyectos</strong>.</li>
 							</ul>
 						</div>
 					</section>
@@ -318,16 +316,16 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								En este periodo he pasado de centrarme en el desarrollo y en PoCs complejas a tener un rol mucho más orientado a diseño de arquitecturas de datos y roadmaps de migración, definiendo plataformas metadata-driven, modelos Data Vault y frameworks reutilizables (como la prueba DataTech, el MDIF o la propuesta de TOUS).
+								En este periodo he pasado de centrarme en el desarrollo a tener un rol más orientado a diseño de arquitecturas de datos y roadmaps de migración, definiendo plataformas metadata-driven, modelos Data Vault y frameworks reutilizables (con la prueba DataTech, el MDIF o la propuesta de TOUS).
 							</p>
 							<p>
-								Además de la contribución técnica, he empezado a asumir más responsabilidad en la coordinación de trabajos (especialmente en DACSA) así como la continuación en la guía de perfiles más junior y la elaboración de documentación de referencia.
+								Además de la contribución técnica, he preseguido con la coordinación de trabajos así como la continuación en la guía de perfiles más junior y la elaboración de documentación de referencia.
 							</p>
 							<p>
-								Al mismo tiempo, la naturaleza de las responsabilidades asumidas, el tipo de decisiones en las que participo y el nivel de autonomía que ejerzo han evolucionado de forma muy marcada respecto a hace un año, a veces más rápido que cómo se organizan los contextos, oportunidades y reconocimientos asociados a estos roles.
+								Al mismo tiempo, la naturaleza de las responsabilidades asumidas, el tipo de decisiones en las que participo y el nivel de autonomía que ejerzo han evolucionado significativamente, reflejando una progresión técnica constante y una mayor capacidad para abordar retos de creciente complejidad desde una perspectiva arquitectónica y estratégica. En ocasiones, esta evolución se ha producido a un ritmo superior al de la propia estructuración formal de los contextos, oportunidades y reconocimientos asociados al rol.
 							</p>
 							<p>
-								Ese contraste me hace reflexionar con especial atención sobre dónde y cómo puedo seguir desarrollando todo este potencial en el medio plazo, priorizando entornos donde este tipo de contribución arquitectónica y de liderazgo técnico tenga el recorrido, la visibilidad y el reconocimiento que merece.
+								Ese contraste me hace reflexionar con especial atención sobre dónde y cómo puedo seguir desarrollando mi potencial en el medio plazo, priorizando entornos donde este tipo de contribución arquitectónica y de liderazgo técnico tenga el recorrido, la visibilidad y el reconocimiento que merece.
 							</p>
 						</div>
 					</section>

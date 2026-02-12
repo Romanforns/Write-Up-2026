@@ -386,7 +386,7 @@ section .nino-sectionContent > .inner {
 .dimension-list li:last-child {
 	margin-bottom: 0;
 }
-.dimension-list li strong {
+.dimension-list li > strong {
 	display: block;
 	margin-bottom: 0.25em;
 	cursor: pointer;
