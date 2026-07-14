@@ -20,7 +20,7 @@ Crecimiento significativo: diseño y construcción desde cero de una plataforma 
 ### Puntos clave a cubrir en voz
 - Path to DT como marco del periodo (aprendizaje + mentorización).
 - Arquitectura por eventos construida desde cero; cada capa del stack con responsabilidad definida.
-- Alcance real: no solo plantillas/maestros (DT), sino orquestación, integración, librería Bronze, validaciones y despliegue.
+- Alcance real: orquestación, integración, librería Bronze, validaciones, despliegue y documentación completa del stack.
 
 </details>
 
@@ -49,7 +49,7 @@ Flujo operativo único multi-componente (PowerApp → Power Automate → ADF →
 <details>
 <summary><strong>EQUIPO</strong></summary>
 
-Coordinación técnica end-to-end, documentación y transferencia de conocimiento. Colaboración con DT (plantillas y maestros) en el marco del Path to DT. Pendiente: alinear feedback del WriteUp (reunión 10/07/2026).
+Coordinación técnica end-to-end. Documentación exhaustiva del desarrollo (contratos, despliegue, arquitectura, operativa) como plataforma documental en GitHub Pages para el equipo interno y el equipo de mantenimiento del cliente.
 
 </details>
 
