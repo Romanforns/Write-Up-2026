@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Write Up Román Forns – Career Path Specialist, Minerva Evolution 2.0 (Septiembre 2026)">
+	<meta name="description" content="Write Up Román Forns – Portfolio TOUS, DACSA y MOLINS (Septiembre 2026)">
 	<meta name="author" content="romanforns.com, romanforns@gmail.com">
 	<title>Write Up – Román Forns</title>
 
@@ -69,18 +69,16 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								En este periodo he experimentado una evolución muy significativa, vinculada al programa <strong>Path to DT</strong> acordado entre Operaciones y Data Technologies en el kick-off del <strong>16 de abril de 2026</strong>. El proyecto de aplicación —<strong>Minerva Evolution 2.0</strong> para <strong>Ciments Molins</strong>— me ha exigido asumir responsabilidades que van más allá del perfil operativo habitual: diseño de arquitectura event-driven, orquestación multi-componente, desarrollo de librerías de procesamiento y despliegue end-to-end en entorno pre-UAT.
+								En este periodo el crecimiento se ha distribuido en <strong>tres frentes de cliente</strong> con naturalezas distintas. En <strong>TOUS</strong> y <strong>DACSA</strong>, el trabajo ha sido principalmente de <strong>gestión, arquitectura y business development</strong>: optimización de plataforma, definición de roadmaps, transferencia de responsabilidades y apertura de nuevas líneas de colaboración. En <strong>Ciments Molins</strong>, el foco ha sido el desarrollo técnico del proyecto <strong>Minerva Evolution 2.0</strong>, en el marco del programa <strong>Path to DT</strong> acordado entre Operaciones y Data Technologies en el kick-off del <strong>16 de abril de 2026</strong>.
 							</p>
 							<p>
-								El crecimiento se ha materializado en el <strong>diseño y construcción desde cero</strong> de una <strong>arquitectura por eventos</strong> (PowerApp → Power Automate → ADF → Databricks), con trazabilidad completa en <code>minerva_ingest_event</code> y validaciones de negocio sobre datos financieros (FPA). En paralelo, he asumido el diseño e implementación de cada capa:
+								En <strong>TOUS</strong>, junto con Ana García Moreno, se ha optimizado la plataforma actual hasta hacerla operar en mínimos, reduciendo el coste de unos <strong>3.000€/mes a 500€/mes</strong>. Esa limpieza ha definido el roadmap de colaboración: ownership de DataPlatform sobre un modelo Customer Omnicanal para Marketing, migración de la ingesta a BigQuery mediante DataTransfers (Salesforce Service y Marketing Cloud) y sustitución progresiva de la infraestructura actual por pipelines de Airflow, dbt y transformaciones PySpark. En paralelo, fruto de la reestructuración de TOUS Data, se está investigando la situación de datos en departamentos NO Digital para evaluar nuevas oportunidades de negocio.
 							</p>
-							<ul>
-								<li><strong>Power Platform</strong> — experiencia de usuario y operativa documental: PowerApp de procesamiento de ficheros (selección de plantilla, invocación del flujo) y flujos Power Automate de autocreación de estructura en SharePoint.</li>
-								<li><strong>ADF</strong> — orquestación e integración: pipeline principal, validaciones de entrada, SharePoint→ADLS landing, arranque de recursos de procesamiento y generación automatizada de JSON de pipelines.</li>
-								<li><strong>Databricks</strong> — procesamiento y gobierno del dato: tabla de control de eventos, librería <code>minerva_bronze_core</code>, cadena insert→materialize→consume→validación, y despliegue automatizado (CI/CD).</li>
-							</ul>
 							<p>
-								Este reparto consolida un perfil técnico transversal entre infraestructura, plataforma, arquitectura de datos e ingeniería.
+								En <strong>DACSA</strong>, el trabajo se ha centrado en el seguimiento del equipo de desarrollo en la implementación del módulo de Sales, acompañando a Xavi en la toma de control de la arquitectura Fabric y en la relación con el cliente. El foco ha sido la transferencia de responsabilidad en repositorios de infraestructura, ingesta, dbt y CI/CD por workspace, la planificación del apagado de la arquitectura Legacy (análisis de dependencias por dominio y salud de la BBDD Byod, en ejecución) y el planteamiento de un modelo canónico de dimensiones para garantizar la interconectividad semántica del ecosistema.
+							</p>
+							<p>
+								En <strong>MOLINS</strong>, Minerva Evolution 2.0 ha requerido trabajo transversal en una <strong>arquitectura por eventos</strong> (PowerApp → Power Automate → ADF → Databricks), con trazabilidad en <code>minerva_ingest_event</code> y validaciones de negocio sobre datos financieros (FPA). El alcance del proyecto abarca cada capa del stack: Power Platform (experiencia de usuario y operativa documental), ADF (orquestación, landing SharePoint→ADLS, generación de pipelines) y Databricks (control de eventos, librería <code>minerva_bronze_core</code>, cadena de procesamiento y CI/CD), con validación E2E en pre-UAT.
 							</p>
 						</div>
 					</section>
@@ -91,7 +89,7 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								Las siguientes dimensiones recogen el crecimiento profesional del periodo a través del proyecto único <strong>Minerva Evolution 2.0</strong> (Ciments Molins), en el marco del career path Path to DT.
+								Las siguientes dimensiones recogen el crecimiento profesional del periodo a través de los tres clientes del portfolio: <strong>TOUS</strong>, <strong>DACSA</strong> y <strong>MOLINS</strong> (Minerva Evolution 2.0). Cada dimensión se desglosa por proyecto, reflejando la diversidad de perfiles — gestión, arquitectura y business development frente a desarrollo técnico — dentro del mismo periodo.
 							</p>
 						</div>
 					</section>
@@ -101,9 +99,32 @@
 							<i class="mdi mdi-briefcase nino-icon"></i>PRÁCTICA
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								En <strong>Minerva Evolution 2.0</strong> (Ciments Molins), desarrollado en el marco del career path Path to DT, he diseñado y construido desde cero una plataforma FPA event-driven que integra Power Platform, ADF y Databricks. El entregable técnico abarca la definición del contrato de integración entre capas, la orquestación ADF (pipeline principal, landing SharePoint→ADLS, generación automatizada de pipelines), la librería <code>minerva_bronze_core</code> y el job unificado de procesamiento en Databricks (eventos, materialize, consume, validaciones), la PowerApp de procesamiento de ficheros y los flujos operativos en SharePoint, junto con CI/CD y tests automatizados. El alcance funcional cubre ~20 tipos de plantilla y la carga de maestros, con validación E2E en pre-UAT.
-							</p>
+							<div class="inner">
+								<article class="dimension-bullet-collapsed">
+									<h3 class="nino-articleTitle">TOUS — Optimización y roadmap de plataforma</h3>
+									<div class="nino-articleContent">
+										<p>
+											De la mano de Ana García Moreno, se ha optimizado la plataforma actual hasta hacerla funcionar en mínimos, reduciendo el coste de unos <strong>3.000€/mes a 500€/mes</strong>. La limpieza y simplificación han definido el roadmap de colaboración, reconociendo la responsabilidad de DataPlatform sobre un <strong>modelo Customer Omnicanal</strong> para el equipo de Marketing. Se ha acordado trasladar la ingesta a BigQuery mediante DataTransfers de Salesforce Service y Salesforce Marketing Cloud, decomisionando la plataforma actual en favor de un entorno compuesto por pipelines de Airflow, dbt y transformaciones PySpark.
+										</p>
+									</div>
+								</article>
+								<article class="dimension-bullet-collapsed">
+									<h3 class="nino-articleTitle">DACSA — Seguimiento Sales y transferencia Fabric</h3>
+									<div class="nino-articleContent">
+										<p>
+											Se ha realizado el seguimiento del equipo de desarrollo en la implementación del módulo de Sales, acompañando a Xavi en la toma de control de la arquitectura Fabric y en la relación con el cliente. La actuación abarca la transferencia de responsabilidad en repositorios de infraestructura (workspaces, lakehouse, warehouse, esquemas), ingesta (orígenes configurados en <code>.yml</code>), dbt (invocación desde Notebook con configuración desacoplada en Lakehouse) y CI/CD por workspace Fabric entre DEV y PRD. En paralelo, se ha planificado el apagado de la arquitectura Legacy y se ha planteado un modelo canónico de dimensiones para la interconectividad semántica del ecosistema.
+										</p>
+									</div>
+								</article>
+								<article class="dimension-bullet-collapsed">
+									<h3 class="nino-articleTitle">Minerva Evolution 2.0 — Ciments Molins</h3>
+									<div class="nino-articleContent">
+										<p>
+											En el marco del career path Path to DT, Minerva Evolution 2.0 define una plataforma FPA event-driven que integra Power Platform, ADF y Databricks. El entregable abarca el contrato de integración entre capas, la orquestación ADF (pipeline principal, landing SharePoint→ADLS, generación automatizada de pipelines), la librería <code>minerva_bronze_core</code>, el job unificado de procesamiento en Databricks (eventos, materialize, consume, validaciones), la PowerApp de procesamiento de ficheros, los flujos operativos en SharePoint, CI/CD y tests automatizados. El alcance funcional cubre ~20 tipos de plantilla y la carga de maestros, con validación E2E en pre-UAT.
+										</p>
+									</div>
+								</article>
+							</div>
 						</div>
 					</section>
 
@@ -112,9 +133,11 @@
 							<img src="images/operations-logo.svg" alt="OPERACIONES" class="nino-icon operations-logo operations-logo-heading">OPERACIONES
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								La operativa de Minerva se articula como un único flujo multi-componente: el usuario dispara el proceso desde PowerApp; Power Automate gestiona la estructura documental y la invocación de ADF; ADF valida parámetros, mueve ficheros a landing y activa Databricks; el job unificado ejecuta la cadena de ingesta y validación. He estructurado la jerarquía documental en SharePoint (sociedad/año/mes/concepto), los flujos de autocreación anual y provisión para nuevas sociedades, el despliegue coordinado (bundle → ADF → Power Automate → PowerApp) con checklist y rollback por capa, y la operación del landing ADLS y linked services, de forma que el ciclo de cierre financiero sea repetible y trazable.
-							</p>
+							<ul class="dimension-list">
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Simplificación operativa de la plataforma actual hasta un entorno mínimo viable; plan de decommission de infraestructura pesada y transición hacia ingesta centralizada en BigQuery (Salesforce Service y Marketing Cloud) mediante DataTransfers, con pipelines de Airflow y transformaciones dbt/PySpark como capa de consumo.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Supervisión de la creación de workspaces, lakehouse, warehouse y esquemas; seguimiento de ingestas configuradas en <code>.yml</code>; invocación del proyecto dbt desde Notebook con configuración desacoplada en Lakehouse; CI/CD por workspace Fabric entre DEV y PRD. Planificación del apagado Legacy con análisis de dependencias por dominio y salud de la BBDD Byod (en ejecución).</span></li>
+								<li class="dimension-bullet-collapsed"><strong>MOLINS</strong><span class="dimension-item-desc">La operativa de Minerva se articula como un flujo multi-componente: PowerApp → Power Automate → ADF → Databricks. Se define la jerarquía documental en SharePoint (sociedad/año/mes/concepto), los flujos de autocreación anual y provisión para nuevas sociedades, el despliegue coordinado (bundle → ADF → Power Automate → PowerApp) con checklist y rollback por capa, y la operación del landing ADLS, de forma que el ciclo de cierre financiero sea repetible y trazable.</span></li>
+							</ul>
 						</div>
 					</section>
 
@@ -123,9 +146,11 @@
 							<i class="mdi mdi-account-multiple nino-icon"></i>EQUIPO
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								En Minerva he asumido la coordinación técnica end-to-end del proyecto. Todo lo desarrollado se ha documentado de forma exhaustiva — contratos de integración, guías de despliegue, arquitectura, operativa y referencias de comportamiento — para dejar una plataforma documental sólida publicada en <strong>GitHub Pages</strong>, accesible tanto para el resto del equipo como para el equipo del cliente que asumirá el mantenimiento de la solución.
-							</p>
+							<ul class="dimension-list">
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Colaboración con Ana García Moreno en la optimización de la plataforma y alineación con la reestructuración de TOUS Data. Definición de responsabilidades de DataPlatform frente al equipo de Marketing en el modelo Customer Omnicanal.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Mentoría y transferencia de conocimiento al equipo de desarrollo en repositorios de infraestructura, ingesta, dbt y CI/CD. Facilitación de la transición arquitectónica con Xavi como referente en la arquitectura Fabric.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>MOLINS</strong><span class="dimension-item-desc">Coordinación técnica del proyecto Minerva Evolution 2.0 en el marco de Path to DT. La documentación del desarrollo — contratos de integración, guías de despliegue, arquitectura y operativa — queda publicada en GitHub Pages, accesible para el equipo interno y el equipo del cliente que asumirá el mantenimiento.</span></li>
+							</ul>
 						</div>
 					</section>
 
@@ -134,9 +159,11 @@
 							<i class="mdi mdi-domain nino-icon"></i>CLIENTE
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								Para <strong>Ciments Molins</strong>, Minerva Evolution 2.0 aporta una plataforma de reporting financiero (FPA) con arquitectura event-driven, trazabilidad de cargas (<code>event_id</code>, <code>execution_id</code>), validaciones de negocio sobre plantillas Excel y operativa de cierre de periodos desde PowerApp. El diseño prioriza la reducción de riesgo en el despliegue mediante rollback documentado y validación E2E en pre-UAT, con ~20 plantillas cubiertas en el alcance funcional.
-							</p>
+							<ul class="dimension-list">
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Hoja de ruta acordada con el cliente tras la optimización de costes: visibilidad de la simplificación operativa, modelo Customer Omnicanal como siguiente hito de valor y arquitectura objetivo basada en BigQuery, Airflow y dbt/PySpark.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Acompañamiento en la fase de implementación del módulo Sales y en la relación con el cliente durante la transición a Fabric. Plan de apagado de la arquitectura Legacy con análisis de dependencias por dominio y evaluación de la salud de la BBDD Byod (en ejecución).</span></li>
+								<li class="dimension-bullet-collapsed"><strong>MOLINS</strong><span class="dimension-item-desc">Minerva Evolution 2.0 aporta a Ciments Molins una plataforma de reporting financiero (FPA) con arquitectura event-driven, trazabilidad de cargas (<code>event_id</code>, <code>execution_id</code>), validaciones de negocio sobre plantillas Excel y operativa de cierre de periodos desde PowerApp. El diseño incluye rollback documentado y validación E2E en pre-UAT, con ~20 plantillas en alcance funcional.</span></li>
+							</ul>
 						</div>
 					</section>
 
@@ -145,9 +172,11 @@
 							<i class="mdi mdi-cash-multiple nino-icon"></i>NEGOCIO
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								El valor para Molins se concentra en la <strong>estabilidad operativa del ciclo de cierre financiero</strong>: procesamiento guiado desde PowerApp, autocreación documental y validaciones automatizadas que reducen errores manuales en cargas FPA. La arquitectura por eventos y el modelo de metadatos (<code>template_id</code>) permiten incorporar nuevas sociedades, plantillas y maestros sin rediseñar la orquestación, ofreciendo una base escalable para la evolución futura de la plataforma de datos financieros del cliente.
-							</p>
+							<ul class="dimension-list">
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Reducción del coste operativo de ~3.000€/mes a 500€/mes (~83%). Investigación de la situación de datos en departamentos NO Digital para evaluar una aproximación comercial que incremente el volumen de negocio y el ownership del ecosistema desde SDG.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Planteamiento del modelo canónico de dimensiones para garantizar la interconectividad semántica de los sistemas integrados (Espiga con Ibermática como caso inicial), perfilado como herramienta core para el roadmap de servicios a implementar en los próximos años.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>MOLINS</strong><span class="dimension-item-desc">El valor para Molins se concentra en la estabilidad operativa del ciclo de cierre financiero: procesamiento guiado desde PowerApp, autocreación documental y validaciones automatizadas que reducen errores manuales en cargas FPA. La arquitectura por eventos y el modelo de metadatos (<code>template_id</code>) permiten incorporar nuevas sociedades, plantillas y maestros sin rediseñar la orquestación.</span></li>
+							</ul>
 						</div>
 					</section>
 
@@ -156,9 +185,11 @@
 							<i class="mdi mdi-chart-line nino-icon"></i>INFLUENCIA
 						</h2>
 						<div class="nino-sectionContent">
-							<p>
-								En el periodo he influido en la definición de la arquitectura event-driven de Minerva y en el establecimiento de un contrato de integración documentado entre PowerApp, ADF y Databricks, con patrones reutilizables (generación de pipelines, librería <code>minerva_bronze_core</code>, tests automatizados, CI/CD con Asset Bundle). El proyecto demuestra la capacidad de asumir roles transversales en un único entregable de cliente real, en el marco del career path Path to DT, e impulsa la alineación Operaciones–DT sobre los criterios de evaluación del WriteUp.
-							</p>
+							<ul class="dimension-list">
+								<li class="dimension-bullet-collapsed"><strong>TOUS</strong><span class="dimension-item-desc">Definición del roadmap de colaboración post-limpieza de plataforma; propuesta de sustitución de infraestructura legacy por una solución más simple y escalable (BigQuery + Airflow + dbt); apertura de oportunidades comerciales en áreas no digitales del cliente.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>DACSA</strong><span class="dimension-item-desc">Posicionamiento del modelo canónico de dimensiones como activo estratégico para la interconectividad semántica del ecosistema DACSA; gobernanza de la transición a Fabric y del plan de decommissioning Legacy.</span></li>
+								<li class="dimension-bullet-collapsed"><strong>MOLINS</strong><span class="dimension-item-desc">El proyecto consolida patrones reutilizables — arquitectura event-driven, contrato de integración documentado entre PowerApp, ADF y Databricks, generación de pipelines, librería <code>minerva_bronze_core</code>, tests automatizados y CI/CD con Asset Bundle — en el marco del career path Path to DT, contribuyendo a la alineación Operaciones–DT.</span></li>
+							</ul>
 						</div>
 					</section>
 
@@ -168,6 +199,34 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<div class="inner">
+								<article class="dimension-bullet-collapsed">
+									<h3 class="nino-articleTitle">TOUS — Optimización, roadmap BigQuery y business development</h3>
+									<div class="nino-articleContent">
+										<p><strong>Alcance</strong>: Optimización de la plataforma de datos actual, definición del roadmap de colaboración y exploración de nuevas oportunidades de negocio en departamentos NO Digital.</p>
+										<p><strong>Actividades realizadas</strong>:</p>
+										<ul>
+											<li><strong>Optimización de costes</strong>: reducción del coste operativo de ~3.000€/mes a 500€/mes, en colaboración con Ana García Moreno, mediante limpieza y simplificación de la plataforma hasta un entorno mínimo viable.</li>
+											<li><strong>Definición de roadmap</strong>: acuerdo sobre ownership de DataPlatform en un modelo Customer Omnicanal para Marketing; plan de migración de ingesta a BigQuery mediante DataTransfers (Salesforce Service y Marketing Cloud); arquitectura objetivo con pipelines de Airflow, dbt y transformaciones PySpark.</li>
+											<li><strong>Decommissioning</strong>: planificación de sustitución de la infraestructura actual por un entorno más simple y escalable.</li>
+											<li><strong>Business development</strong>: investigación de la situación de datos en departamentos NO Digital, fruto de la reestructuración de TOUS Data, para evaluar una aproximación comercial que incremente volumen de negocio y ownership del ecosistema desde SDG.</li>
+										</ul>
+									</div>
+								</article>
+								<article class="dimension-bullet-collapsed">
+									<h3 class="nino-articleTitle">DACSA — Responsibility transfer, decommissioning y modelo canónico</h3>
+									<div class="nino-articleContent">
+										<p><strong>Alcance</strong>: Seguimiento del equipo de desarrollo en la implementación del módulo Sales, transferencia de responsabilidad en la arquitectura Fabric y planificación del apagado Legacy.</p>
+										<p><strong>Actividades realizadas</strong>:</p>
+										<ul>
+											<li><strong>Responsibility transfer — Infraestructura</strong>: seguimiento de repositorios de infraestructura; creación de workspaces, lakehouse, warehouse y esquemas.</li>
+											<li><strong>Responsibility transfer — Ingesta</strong>: seguimiento de repositorios de ingesta con transferencia de conocimiento para ingestas de orígenes configurados en <code>.yml</code>.</li>
+											<li><strong>Responsibility transfer — dbt</strong>: seguimiento del repositorio dbt; invocación del proyecto desde Notebook con configuración desacoplada en Lakehouse.</li>
+											<li><strong>Responsibility transfer — CI/CD</strong>: seguimiento de repositorios por workspace Fabric; generación de CI/CD entre DEV y PRD en cada uno.</li>
+											<li><strong>Decommissioning plan</strong>: planificación del apagado de la arquitectura Legacy, con análisis de dependencias por dominio y evaluación de la salud de la BBDD Byod (en ejecución).</li>
+											<li><strong>Canonic models</strong>: planteamiento de la necesidad de un modelo canónico de dimensiones para garantizar la interconectividad semántica del ecosistema (Espiga con Ibermática como caso inicial), perfilado como herramienta core para el roadmap de servicios futuros.</li>
+										</ul>
+									</div>
+								</article>
 								<article class="dimension-bullet-collapsed">
 									<h3 class="nino-articleTitle">Minerva Evolution 2.0 — Ciments Molins</h3>
 									<div class="nino-articleContent">
@@ -193,12 +252,13 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								Me gustaría verme <strong>consolidando la promoción a Specialist</strong> en Operaciones, con el reconocimiento formal del desarrollo demostrado en Minerva Evolution 2.0, y seguir profundizando en:
+								Me gustaría verme <strong>consolidando la promoción a Specialist</strong> en Operaciones, con reconocimiento del portfolio multi-cliente del periodo, y seguir profundizando en:
 							</p>
 							<ul>
-								<li><strong>Arquitecturas event-driven</strong> y patrones de integración multi-componente (Power Platform, ADF, Databricks).</li>
-								<li><strong>Frameworks reutilizables</strong> (patrones metadata-driven, tests automatizados, CI/CD con Asset Bundle) aplicables a otros clientes de la práctica.</li>
-								<li>En el horizonte del career path, <strong>optar a proyectos de DT</strong> cuando el reto técnico lo justifique, aportando la experiencia transversal adquirida en Minerva.</li>
+								<li><strong>Arquitectura y roadmaps</strong>: definición de hojas de ruta y transferencia de responsabilidades (TOUS, DACSA), junto con patrones de integración multi-componente (Minerva).</li>
+								<li><strong>Frameworks reutilizables</strong>: patrones metadata-driven, tests automatizados y CI/CD con Asset Bundle, aplicables a otros clientes de la práctica.</li>
+								<li><strong>Business development</strong>: ampliar el ownership del ecosistema de datos en clientes existentes, identificando oportunidades en áreas no cubiertas.</li>
+								<li>En el horizonte del career path, <strong>optar a proyectos de DT</strong> cuando el reto técnico lo justifique, aportando la experiencia transversal del periodo.</li>
 							</ul>
 						</div>
 					</section>
@@ -210,6 +270,7 @@
 						<div class="nino-sectionContent">
 							<ul>
 								<li><strong>Proyectos con complejidad técnica real</strong>: retos que exijan diseño arquitectónico, no solo ejecución de tareas acotadas.</li>
+								<li><strong>Proyectos con componente de gestión y business development</strong>: oportunidades que combinen oversight técnico, definición de roadmaps y apertura de nuevas líneas de negocio con el cliente.</li>
 								<li><strong>Colaboración estructurada con DT</strong>: mentorización efectiva sin solapamiento ambiguo de responsabilidades.</li>
 								<li><strong>Mayor disponibilidad para diseño</strong>: consolidar el paso de desarrollador operativo a perfil que define arquitectura, contratos y roadmaps.</li>
 							</ul>
@@ -222,13 +283,13 @@
 						</h2>
 						<div class="nino-sectionContent">
 							<p>
-								En este periodo he pasado de tareas operativas de plataforma a <strong>diseñar y construir una solución end-to-end</strong> para un cliente real: desde la experiencia de usuario en PowerApp hasta la ingesta Bronze en Databricks, pasando por orquestación ADF, validaciones de negocio y CI/CD.
+								El periodo ha combinado perfiles de trabajo distintos según el cliente. En TOUS y DACSA, la contribución se ha centrado en gestión, arquitectura y business development: optimización de costes, definición de roadmaps, transferencia de responsabilidades y exploración de nuevas oportunidades. En MOLINS, la participación en Minerva Evolution 2.0 — dentro del programa Path to DT — ha abarcado el ciclo completo de una plataforma FPA event-driven, desde PowerApp hasta Databricks.
 							</p>
 							<p>
-								El programa Path to DT ha sido un catalizador de este crecimiento, pero hace necesario que el WriteUp evalúe el alcance real del diseño y desarrollo realizado en el proyecto Minerva 2.0.
+								Esta dualidad refleja una evolución hacia un perfil que combina la capacidad de definir arquitectura y roadmaps con la participación en entregables técnicos concretos, sin que uno reste valor al otro.
 							</p>
 							<p>
-								Mi expectativa es que este WriteUp sirva como base documentada para reflejar la progresión técnica hacia Specialist con evidencias concretas del proyecto Minerva.
+								La expectativa es que este WriteUp documente el portfolio completo del periodo — TOUS, DACSA y MOLINS — como base para la progresión hacia Specialist.
 							</p>
 						</div>
 					</section>
