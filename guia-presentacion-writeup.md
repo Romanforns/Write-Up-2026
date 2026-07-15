@@ -132,7 +132,7 @@ Resumir entregables de los tres clientes (alcance + actividades).
 </details>
 
 <details>
-<summary><strong>Minerva Evolution 2.0 — Ciments Molins</strong></summary>
+<summary><strong>Ciments Molins — Minerva Evolution 2.0</strong></summary>
 
 **Alcance:** Modernización ingesta plantillas Excel y maestros hacia Azure (Power Platform + ADF + Databricks), Path to DT.
 
